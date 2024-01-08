@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.bar-title{
+  content: "";
+  display: block;
+  width: 50px;
+  height: 4px;
+  background:#64495c;
+
+}
+section{
+  padding-top: 100px;
+}
+h2{
+  color: #64495c;
+}
+html{scroll-behavior: smooth;}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.mat-radio-button.mat-accent .mat-radio-inner-circle{
+  background-color:#64495c!important;
+}
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle{
+  border-color:#64495c!important;
+}
+.mat-radio-outer-circle{
+  border-color: white!important;
+}
